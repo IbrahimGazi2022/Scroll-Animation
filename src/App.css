@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+section:nth-child(even) {
+  background: #e74c3c;
+}
+section {
+  height: 100vh;
+  background: #f1c40f;
+  scroll-snap-align: end;
+}
